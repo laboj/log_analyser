@@ -1,8 +1,8 @@
 #==============================================================================================================================
-#author@10JOSec
+#author@laboj
 #date@23-07-2026
-#lesson:Log File Analyzer
-#description: read file, reusable functions, loop control, extracting of values,
+#lesson: Log File Analyzer
+#description: read file, reusable functions, loop control, extracting values
 #==============================================================================================================================
 
 def is_failed_login(line):
