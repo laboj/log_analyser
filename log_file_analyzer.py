@@ -5,6 +5,7 @@
 #description: read file, reusable functions, loop control, extracting values
 #==============================================================================================================================
 
+#Function
 def is_failed_login(line):
     return "Failed password" in line
 
@@ -16,6 +17,7 @@ ip_counts={}
 highest_count=0
 most_active_ip=None
 
+#Reading log file
 with open ("auth.log", "r") as logfile:
     for line in logfile:
         
@@ -35,7 +37,7 @@ with open ("auth.log", "r") as logfile:
             else:
                 ip_counts[ip] =1
 
-
+#Security Report
 print(f"""
     Security Report
 ==========================
